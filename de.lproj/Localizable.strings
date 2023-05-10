@@ -1,0 +1,136 @@
+"welcome" = "Willkommen";
+"gettingStarted" = "Erste Schritte";
+"titleIntro" = "Willkommen bei AKME\nIhr persönlicher KI-Assistent";
+"textIntro" = "\tBitte lesen Sie vor dem Start die folgenden wichtigen Anweisungen, um das beste Erlebnis mit AKME zu gewährleisten.";
+"titleJudgement" = "Üben Sie Vorsicht aus und verwenden Sie Ihr Urteilsvermögen";
+"textJudgement" = "\tAKME verwendet GPT, ein großes Sprachmodell, das manchmal falsche oder irreführende Informationen liefern kann.\n\tNutzen Sie immer Ihr eigenes Urteil und überprüfen Sie die vom App bereitgestellten Informationen, bevor Sie Entscheidungen darauf stützen.";
+"titleAdults" = "Für Erwachsene oder unter Aufsicht von Erwachsenen";
+"textAdults" = "\tAKME ist für die Verwendung durch Erwachsene oder unter Aufsicht von Erwachsenen konzipiert.\n\tWenn Sie kein Erwachsener sind, stellen Sie bitte sicher, dass Sie die Erlaubnis haben und von einem Erwachsenen beaufsichtigt werden, während Sie die App verwenden.";
+"titleDisclaimer" = "Verantwortung für Inhalte";
+"textDisclaimer" = "\tBitte beachten Sie, dass die Autoren von AKME nicht für Inhalte verantwortlich sind, die von der App generiert werden.\n\tDie bereitgestellten Antworten stammen aus OpenAI's GPT-Modell und repräsentieren nicht die Ansichten oder Meinungen der App-Entwickler.\n\tVerwenden Sie die bereitgestellten Informationen auf eigenes Risiko.";
+"titleFeedback" = "Ihr Feedback ist uns wichtig";
+"textFeedback" = "\tIhr Feedback ist für die Verbesserung von AKME unerlässlich.\n\tWenn Sie auf Probleme stoßen oder Vorschläge haben, wie wir die App verbessern können, zögern Sie bitte nicht, uns über die Feedback-Option in der App oder per E-Mail an akme@smuggledbits.com zu kontaktieren.\n\tIhre Meinung hilft uns, ein besseres Erlebnis für alle zu schaffen.";
+"continueLabel" = "\tFortfahren";
+
+/*Purchase screen*/
+"titlePurchaseIntro" = "AKME bietet zwei flexible Nutzungsoptionen, um Ihren Vorlieben am besten gerecht zu werden";
+"byok" = "🔑 BYOK";
+"titleBYOK" = "BYOK - Bring Your Own Key";
+"textBYOK" = "\tBei dieser Option können Sie Ihren eigenen OpenAI-API-Schlüssel eingeben, um AKME zu verwenden.\nAuf diese Weise können Sie Ihren API-Verbrauch direkt über Ihr OpenAI-Konto verwalten. Alle über die AKME-App gesendeten Aufforderungen werden auf den Token-Verbrauch in Ihrem Konto angerechnet.\nDiese Option eignet sich für Benutzer, die bereits ein OpenAI-Konto haben und die volle Kontrolle über ihren API-Verbrauch behalten möchten.";
+"inAppTokens" = "🎟 In-App-Token";
+"titlePurchase" = "In-App-Token kaufen";
+"textPurchase" = "Diese Option ermöglicht es Ihnen, Token direkt in AKME, für ein nahtloses Erlebnis zu erwerben.\nIhr Verbrauch wird von Ihrem In-App-Token-Guthaben abgezogen. Wenn Ihr Guthaben Null erreicht oder unter die für eine Aufforderung erforderlichen Token fällt, können Sie weitere Token erwerben oder zur BYOK-Option wechseln.\nSie haben weiterhin Zugriff auf Ihre vorhandenen Chat-Sitzung, unabhängig von Ihrem aktuellen Token-Guthaben.";
+"infoTokens" = "Was sind Token?";
+"tokensExplanation" = "Token sind die grundlegenden Bausteine von Text, mit denen Sprachmodelle arbeiten. Sie stellen die kleinsten Bedeutungseinheiten dar und können einzelne Zeichen, ganze Wörter oder Teile von Wörtern sein. Sprachmodelle verwenden diese Token, um Text zu verstehen und zu generieren, was für ihre Funktionalität unerlässlich ist.\n\nIm Zusammenhang mit APIs wie OpenAI spielen Token eine entscheidende Rolle bei der Bestimmung der Nutzungskosten. Der Tokenisierungsprozess zerlegt sowohl den Eingabeaufforderungstext als auch die generierte Antwort in Token. Die Gesamtzahl der verbrauchten Token beeinflusst die Kosten, die Verarbeitungszeit und die API-Beschränkungen. Daher werden beim Senden einer Aufforderung und Empfangen einer Antwort Token \"verbraucht\", was bedeutet, dass Benutzer auf der Grundlage der kombinierten Anzahl von Token, die in der Eingabe und Ausgabe verwendet werden, in Rechnung gestellt werden. Dieser Token-Verbrauchsmechanismus fördert eine effiziente Nutzung und stellt sicher, dass die Sprachmodelle effektiv mit unterschiedlichen sprachlichen Daten arbeiten.";
+"ctaBYOK" = "\tIch habe einen API-Schlüssel";
+"ctoBYOK" = "\tIch habe keinen API-Schlüssel";
+"questionTokens" = "Was sind Token?";
+"tokensBalance" = "Guthaben";
+"tokens" = "Token";
+"balanceInfo" = "Diese Übersicht enthält möglicherweise keine Käufe oder Verwendung von anderen Geräten, die mit demselben Konto verbunden sind.";
+"purchase" = "Kaufen";
+"restorePurchases" = "Käufe wiederherstellen";
+"checkPurchases" = "Käufe überprüfen";
+
+/*Threads*/
+"errNoConnection" = "Kann keine sichere Verbindung zum Server herstellen";
+"preparingExport" = "Export wird vorbereitet";
+"textCopied" = "Text kopiert";
+"newChat" = "Neuer Chat";
+"newChatDetail" = "Eine neue Sitzung starten";
+"errorLoadingThread" = "Sitzung kann nicht geladen werden!";
+
+/*Parameters*/
+"temperature" = "Temperatur";
+"topP" = "Top P";
+"maxTokens" = "Maximale Token";
+"presencePenalty" = "Anwesenheitsstrafe";
+"frequencyPenalty" = "Häufigkeitsstrafe";
+"apiKeyServer" = "Server";
+"newThreadParameters" = "Diese Parameter werden nur für neue Sitzungen verwendet.";
+"thisThreadParameters" = "Diese Parameter werden nur für diese Sitzung verwendet.";
+"resetParameters" = "Parameter zurücksetzen";
+"resetDetail" = "Möchten Sie alle Parameter auf die Standardwerte zurücksetzen?\n\nIhre Änderungen gehen verloren!";
+"removeAPIKey" = "API-Schlüssel entfernen";
+"removeAPIDetail" = "Möchten Sie den API-Schlüssel entfernen?\n\nDiese Aktion kann nicht rückgängig gemacht werden!";
+"modelToolTip" = "ID des zu verwendenden Modells.\nBeachten Sie, dass die Token-Preise je nach Modell variieren.";
+"temperatureToolTip" = "Welche Abtasttemperatur zwischen 0 und 2 verwendet werden soll.\n\nHöhere Werte wie 0,8 machen die Ausgabe zufälliger, während niedrigere Werte wie 0,2 sie fokussierter und deterministischer machen.\n\nWir empfehlen im Allgemeinen, entweder diese oder die Top_p-Einstellung zu ändern, aber nicht beide.";
+"topPToolTip" = "Eine Alternative zur Abtastung mit Temperatur, die als Kernabtastung bezeichnet wird und bei der das Modell die Ergebnisse der Token mit der Top_p-Wahrscheinlichkeitsmasse berücksichtigt.\n\n0,1 bedeutet also, dass nur die Token berücksichtigt werden, die die obersten 10 % der Wahrscheinlichkeitsmasse ausmachen.\n\nWir empfehlen im Allgemeinen, entweder diese oder die Temperatureinstellung zu ändern, aber nicht beide.";
+"maxTokensToolTip" = "Die maximale Anzahl von Token, die in der Chat-Abschlussgenerierung erzeugt werden sollen.\n\nDie Gesamtlänge der Eingabetoken und der generierten Token ist durch die Kontextlänge des Modells begrenzt.";
+"presencePenaltyToolTip" = "Zahl zwischen -2,0 und 2,0.\n\nPositive Werte bestrafen neue Token basierend darauf, ob sie bisher im Text erscheinen, wodurch die Wahrscheinlichkeit des Modells erhöht wird, über neue Themen zu sprechen.";
+"frequencyPenaltyToolTip" = "Zahl zwischen -2,0 und 2,0.\n\nPositive Werte bestrafen neue Token basierend auf ihrer vorhandenen Häufigkeit im bisherigen Text, wodurch die Wahrscheinlichkeit des Modells, dieselbe Zeile wörtlich zu wiederholen, verringert wird.";
+
+/*General*/
+"ok" = "Ok";
+"cancel" = "Abbrechen";
+"save" = "Speichern";
+"reset" = "Zurücksetzen";
+"remove" = "Entfernen";
+"warning" = "Warnung";
+"hide" = "Verbergen";
+"show" = "Anzeigen";
+"apiKey" = "API-Schlüssel";
+"enterApiKey" = "API-Schlüssel eingeben";
+"invalidAPIKey" = "Ungültiger API-Schlüssel";
+"apiKeyError" = "Ungültiger API-Schlüssel";
+"missingAPIKey" = "API-Schlüssel fehlt";
+"savedApiKey" = "API-Schlüssel gespeichert!";
+"errorModels" = "API-Schlüssel eingeben, um Modelle aufzulisten";
+"readOnlyModels" = "Das Modell wird vom Server basierend auf der Verfügbarkeit konfiguriert.\n\nDas Standardmodell ist gpt-3.5-turbo.";
+"errorNetwork" = "Keine Verbindung zum AppStore möglich";
+"detailNetwork" = "Die App kann keine sichere Verbindung zum AppStore herstellen.\n\nDas Anmelden bei iCloud behebt in der Regel das Problem.";
+"gptModel" = "GPT-Modell";
+"prompt" = "Anfrage";
+"reply" = "Antwort";
+"exportLog" = "Exportieren";
+"promptSuggestions" = "Anfragen";
+"me" = "Ich";
+"AKME" = "AKME";
+"updateApp" = "Ihre Version der App ist nicht mehr kompatibel.\nBitte aktualisieren Sie auf die neueste Version";
+"insufficientTokens" = "Sie haben nicht genügend Token";
+"unknownNetworkError" = "Ein Netzwerkfehler ist aufgetreten, bitte versuchen Sie es später erneut";
+"titleLongThread" = "Lange Sitzung";
+"warningLongThread" = "Diese Sitzung wird lang - starten Sie eine neue, um zusätzliche Kosten zu vermeiden.";
+"errorLongThread" = "Diese Sitzung ist zu lang, starten Sie eine neue.";
+"blockLongThread" = "Diese Sitzung überschreitet das Token-Limit, Sie können keine neuen Nachrichten senden";
+"transactionStarted" = "Transaktion gestartet";
+"transactionFailed" = "Transaktion fehlgeschlagen";
+"transactionRestored" = "Transaktion wiederhergestellt";
+"transactionSuccesful" = "Transaktion erfolgreich";
+"transactionDeferred" = "Transaktion zurückgestellt";
+"waitingModeration" = "Warten auf Moderation";
+"reviewMessage" = "Ihre Nachricht könnte gegen unsere Moderationsregeln verstoßen, bitte überprüfen Sie die Nachricht.";
+
+/*Help*/
+"instructionsTitle" = "Anweisungen zur Benutzung";
+"websiteTitle" = "FAQ";
+"feedbackTitle" = "Feedback";
+"instructionsDetail" = "Bevor Sie beginnen, lesen Sie bitte die folgenden wichtigen Anweisungen, um die beste Erfahrung mit AKME zu gewährleisten.";
+"websiteDetail" = "Weitere Antworten auf häufig gestellte Fragen finden Sie auf unserer Website.";
+"feedbackDetail" = "Wenn Sie auf Probleme stoßen oder Vorschläge haben, wie wir die App verbessern können, zögern Sie bitte nicht, uns zu kontaktieren!";
+"instructionsAction" = "Anweisungen lesen";
+"websiteAction" = "Website öffnen";
+"feedbackAction" = "Feedback senden";
+"reportIssue" = "Problem melden";
+"reviewApp" = "AKME bewerten";
+"mailFeedback" = "Feedback für AKME";
+"problemFeedback" = "Problem mit AKME";
+"describeIssue" = "Bitte beschreiben Sie das Problem, auf das Sie stoßen.\nEin Protokoll mit den letzten Transaktionen ist ebenfalls enthalten, sowie eine Kopie der Konfigurationsdatei. Diese Dateien enthalten keine identifizierbaren Informationen.\nBitte teilen Sie keine sensiblen oder privaten Informationen.";
+"writeFeedback" = "Wir freuen uns über Ihr Feedback, aber bitte teilen Sie keine sensiblen oder privaten Informationen.";
+"errorSendingMail" = "E-Mail kann nicht gesendet werden";
+"chooseWisely" = "Wählen Sie eine Option";
+"error" = "Fehler";
+"networkError" = "Ein Netzwerkfehler ist aufgetreten, bitte versuchen Sie es erneut";
+"retryRequest" = "Anfrage wiederholen?";
+"retry" = "Wiederholen";
+
+/*Threads*/
+"oldThreads" = "Sitzungen";
+
+/*General*/
+"languageSuffix" = "de";
+
+/*Bonus*/
+"startBonus" = "Willkommensbonus";
+"startBonusTitle" = "Willkommen";
+"startBonusText" = "Wir haben Ihrem Konto %@ Token gutgeschrieben, damit Sie die Funktionen unserer App erkunden können.";
