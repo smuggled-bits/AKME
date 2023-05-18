@@ -2,8 +2,8 @@
 "gettingStarted" = "Rozpoczęcie";
 "titleIntro" = "Witaj w AKME\nTwój osobisty asystent AI";
 "textIntro" = "\tPrzed rozpoczęciem, uprzejmie prosimy o zapoznanie się z poniższymi istotnymi wskazówkami, które mają na celu zapewnienie najwyższej jakości korzystania z AKME.";
-"titleJudgement" = "Bądź ostrożny i korzystaj z własnego osądu";
-"textJudgement" = "\tAKME korzysta z GPT, dużego modelu językowego, który czasami może dostarczyć niepoprawne lub mylące informacje.\n\tZawsze korzystaj z własnego osądu i sprawdzaj informacje dostarczone przez aplikację, zanim podejmiesz decyzje na ich podstawie.";
+"titleJudgement" = "Bądź ostrożny i korzystaj z własnego rozsądku";
+"textJudgement" = "\tAKME korzysta z GPT, dużego modelu językowego, który czasami może dostarczyć niepoprawne lub mylące informacje.\n\tZawsze korzystaj z własnego rozsądku i sprawdzaj informacje dostarczone przez aplikację, zanim podejmiesz decyzje na ich podstawie.";
 "titleAdults" = "Dla dorosłych lub pod nadzorem dorosłych";
 "textAdults" = "\tAKME jest przeznaczony dla użytkowników dorosłych lub pod nadzorem dorosłych.\n\tJeśli nie jesteś osobą dorosłą, upewnij się, że masz zgodę i jesteś pod nadzorem osoby dorosłej podczas korzystania z aplikacji.";
 "titleDisclaimer" = "Odpowiedzialność za treść";
@@ -27,7 +27,7 @@
 "questionTokens" = "Co to są Tokeny?";
 "tokensBalance" = "Saldo";
 "tokens" = "Tokeny";
-"balanceInfo" = "Ten dziennik może nie zawierać zakupów lub wykorzystania z innych urządzeń podłączonych do tego samego konta.";
+"balanceInfo" = "Ta informacja może nie uwzględniać zakupów lub wykorzystania z innych urządzeń połączonych z tym samym kontem.";
 "purchase" = "Kup";
 "restorePurchases" = "Przywróć Zakupy";
 "checkPurchases" = "Sprawdzanie Zakupów";
@@ -35,8 +35,8 @@
 /*Threads*/
 "errNoConnection" = "Nie można nawiązać bezpiecznego połączenia z serwerem";
 "preparingExport" = "Przygotowywanie eksportu";
-"textCopied" = "Skopiowany tekst";
-"newChat" = "Nowy wątek";
+"textCopied" = "Tekst skopiowany";
+"newChat" = "Nowy czat";
 "newChatDetail" = "Rozpocznij nowy wątek";
 "errorLoadingThread" = "Nie można załadować wątku!";
 
@@ -55,8 +55,8 @@
 "removeAPIDetail" = "Czy chcesz usunąć klucz API?\n\nNie można cofnąć tej operacji!";
 "modelToolTip" = "ID modelu do użycia.\nUwaga, ceny tokenów różnią się w zależności od modelu.";
 "temperatureToolTip" = "Jaka temperatura próbkowania ma być używana,\nod 0 do 2.\n\nWyższe wartości, takie jak 0,8, sprawią, że wynik będzie bardziej losowy, podczas gdy niższe wartości, takie jak 0,2, sprawią, że będzie bardziej skoncentrowany i deterministyczny.\n\nZazwyczaj zalecamy zmianę tego lub top_p, ale nie obu jednocześnie.";
-"topPToolTip" = "Alternatywa dla próbkowania z użyciem temperatury, nazywana próbkowaniem jądra, w której model rozważa wyniki tokenów z top_p masą prawdopodobieństwa.\n\nWięc 0,1 oznacza, że ​​rozważane są tylko tokeny stanowiące top 10% masy prawdopodobieństwa.\n\nZazwyczaj zalecamy zmianę tego lub temperatury, ale nie obu jednocześnie.";
-"maxTokensToolTip" = "Maksymalna liczba tokenów do wygenerowania w uzupełnieniu rozmowy.\n\nCałkowita długość tokenów wejściowych i wygenerowanych tokenów jest ograniczona przez długość kontekstu modelu.";
+"topPToolTip" = "Alternatywa dla próbkowania z użyciem temperatury, nazywana próbkowaniem \"nucleusa\", w której model rozważa wyniki tokenów z top_p masą prawdopodobieństwa.\n\nWięc 0,1 oznacza, że ​​rozważane są tylko tokeny stanowiące top 10% masy prawdopodobieństwa.\n\nZazwyczaj zalecamy zmianę tego lub temperatury, ale nie obu jednocześnie.";
+"maxTokensToolTip" = "Maksymalna liczba tokenów do wygenerowania podczas rozmowy.\n\nCałkowita długość tokenów wejściowych i wygenerowanych tokenów jest ograniczona przez długość kontekstu modelu.";
 "presencePenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie tego, czy występują w tekście do tej pory, zwiększając prawdopodobieństwo, że model będzie mówił o nowych tematach.";
 "frequencyPenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie ich istniejącej częstości w tekście do tej pory, zmniejszając prawdopodobieństwo, że model powtórzy ten sam wiersz dosłownie.";
 
@@ -66,7 +66,7 @@
 "save" = "Zapisz";
 "reset" = "Resetuj";
 "remove" = "Usuń";
-"warning" = "Ostrzeżenie";
+"warning" = "Uwaga";
 "hide" = "Ukryj";
 "show" = "Pokaż";
 "apiKey" = "Klucz API";
@@ -105,9 +105,9 @@
 "instructionsTitle" = "Instrukcje obsługi";
 "websiteTitle" = "FAQ";
 "feedbackTitle" = "Opinia";
-"instructionsDetail" = "Przed rozpoczęciem pracy przeczytaj poniższe ważne instrukcje, aby zapewnić najlepsze doświadczenia z AKME.";
+"instructionsDetail" = "Przed rozpoczęciem pracy, prosimy przeczytać poniższe ważne instrukcje, aby zapewnić najlepsze doświadczenie z AKME.";
 "websiteDetail" = "Więcej odpowiedzi na często zadawane pytania znajdziesz na naszej stronie internetowej.";
-"feedbackDetail" = "Jeśli napotkasz jakieś problemy lub masz sugestie dotyczące poprawy aplikacji, nie wahaj się z nami skontaktować!";
+"feedbackDetail" = "Jeśli napotkasz jakiekolwiek problemy lub masz sugestie dotyczące poprawy aplikacji, prosimy o kontakt z nami!";
 "instructionsAction" = "Przeczytaj instrukcje";
 "websiteAction" = "Otwórz stronę internetową";
 "feedbackAction" = "Wyślij opinię";
@@ -115,7 +115,7 @@
 "reviewApp" = "Oceń AKME";
 "mailFeedback" = "Opinia o AKME";
 "problemFeedback" = "Problem z AKME";
-"describeIssue" = "Proszę opisać problem, z którym się borykasz.\nDołączono także dziennik ostatnich transakcji oraz kopię pliku konfiguracyjnego. Te pliki nie zawierają żadnych informacji identyfikujących.\nProszę nie udostępniać poufnych lub prywatnych informacji.";
+"describeIssue" = "Proszę opisać problem, z którym się zmagasz.\nDołączono także dziennik ostatnich transakcji oraz kopię pliku konfiguracyjnego. Te pliki nie zawierają żadnych informacji identyfikujących.\nProszę nie udostępniać poufnych lub prywatnych informacji.";
 "writeFeedback" = "Bardzo chętnie wysłuchamy Twoich opinii, ale prosimy o nieudostępnianie poufnych lub prywatnych informacji.";
 "errorSendingMail" = "Nie można wysłać e-maila";
 "chooseWisely" = "Wybierz opcję";
