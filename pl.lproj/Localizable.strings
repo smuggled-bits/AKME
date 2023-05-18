@@ -15,7 +15,7 @@
 /*Purchase screen*/
 "titlePurchaseIntro" = "AKME oferuje dwie elastyczne opcje użytkowania, aby najlepiej dostosować się do Twoich preferencji";
 "byok" = "🔑 BYOK";
-"titleBYOK" = "BYOK - Przynieś Swoje Własne Klucze";
+"titleBYOK" = "BYOK - Przynieś Swój Własny Klucz";
 "textBYOK" = "\tW tej opcji możesz wprowadzić swój własny klucz API OpenAI, aby zacząć korzystać z AKME.\nW ten sposób możesz zarządzać swoim wykorzystaniem API bezpośrednio za pośrednictwem swojego konta OpenAI. Wszystkie prompty wysyłane przez aplikację AKME będą liczyć się do wykorzystania tokenów na Twoim koncie.\nTa opcja jest odpowiednia dla użytkowników, którzy już mają konto OpenAI i wolą zachować pełną kontrolę nad swoim wykorzystaniem API.";
 "inAppTokens" = "🎟 Tokeny w Aplikacji";
 "titlePurchase" = "Kup Tokeny w Aplikacji";
