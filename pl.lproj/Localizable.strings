@@ -121,7 +121,7 @@
 "chooseWisely" = "Wybierz opcję";
 "error" = "Błąd";
 "networkError" = "Wystąpił błąd sieciowy, spróbuj ponownie";
-"retryRequest" = "Powtórzyć żądanie?";
+"retryRequest" = "Powtórzyć zapytanie?";
 "retry" = "Powtórz";
 
 /*Threads*/
