@@ -3,7 +3,7 @@
 "titleIntro" = "Witaj w AKME\nTwój osobisty asystent AI";
 "textIntro" = "\tPrzed rozpoczęciem, uprzejmie prosimy o zapoznanie się z poniższymi istotnymi wskazówkami, które mają na celu zapewnienie najwyższej jakości korzystania z AKME.";
 "titleJudgement" = "Bądź ostrożny i korzystaj z zdrowego rozsądku";
-"textJudgement" = "\tAKME korzysta z GPT, dużego modelu językowego, który czasami może dostarczyć niepoprawne lub mylące informacje.\n\tZawsze korzystaj z własnego rozsądku i sprawdzaj informacje dostarczone przez aplikację, zanim podejmiesz decyzje na ich podstawie.";
+"textJudgement" = "\tAKME korzysta z GPT, dużego modelu językowego, który czasami może dostarczyć niepoprawnych lub mylących informacji.\n\tZawsze korzystaj z własnego rozsądku i sprawdzaj informacje dostarczone przez aplikację, zanim podejmiesz decyzje na ich podstawie.";
 "titleAdults" = "Dla dorosłych lub pod nadzorem dorosłych";
 "textAdults" = "\tAKME jest przeznaczony dla użytkowników dorosłych lub pod nadzorem dorosłych.\n\tJeśli nie jesteś osobą dorosłą, upewnij się, że masz zgodę i jesteś pod nadzorem osoby dorosłej podczas korzystania z aplikacji.";
 "titleDisclaimer" = "Odpowiedzialność za treść";
