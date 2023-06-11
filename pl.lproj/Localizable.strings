@@ -1,0 +1,136 @@
+"welcome" = "Witaj";
+"gettingStarted" = "Wprowadzenie";
+"titleIntro" = "Witaj w AKME\nTwój osobisty asystent AI";
+"textIntro" = "\tPrzed rozpoczęciem, uprzejmie prosimy o zapoznanie się z poniższymi istotnymi wskazówkami, które mają na celu zapewnienie najwyższej jakości korzystania z AKME.";
+"titleJudgement" = "Bądź ostrożny i korzystaj z zdrowego rozsądku";
+"textJudgement" = "\tAKME korzysta z GPT, dużego modelu językowego, który czasami może dostarczyć niepoprawnych lub mylących informacji.\n\tZawsze korzystaj z własnego rozsądku i sprawdzaj informacje dostarczone przez aplikację, zanim podejmiesz decyzje na ich podstawie.";
+"titleAdults" = "Dla dorosłych lub pod nadzorem dorosłych";
+"textAdults" = "\tAKME jest przeznaczony dla użytkowników dorosłych lub pod nadzorem dorosłych.\n\tJeśli nie jesteś osobą dorosłą, upewnij się, że masz zgodę i jesteś pod nadzorem osoby dorosłej podczas korzystania z aplikacji.";
+"titleDisclaimer" = "Odpowiedzialność za treść";
+"textDisclaimer" = "\tZwracamy uwagę, że autorzy AKME nie ponoszą odpowiedzialności za treść generowaną przez aplikację.\n\tOdpowiedzi dostarczane są przez model GPT OpenAI i nie reprezentują poglądów ani opinii deweloperów aplikacji.\n\tKorzystaj z dostarczonych informacji na własne ryzyko.";
+"titleFeedback" = "Cenimy Twoją opinię";
+"textFeedback" = "\tTwoja opinia jest niezwykle ważna dla poprawy jakości AKME.\n\tJeśli napotkasz jakieś problemy lub masz sugestie dotyczące poprawy aplikacji, nie wahaj się skontaktować z nami za pomocą opcji opinii w aplikacji lub wysłania wiadomości e-mail na adres akme@smuggledbits.com.\n\tTwoje uwagi pomagają nam stworzyć lepsze doświadczenie dla wszystkich użytkowników.";
+"continueLabel" = "\tDalej";
+
+/*Purchase screen*/
+"titlePurchaseIntro" = "AKME oferuje dwie elastyczne opcje użytkowania, aby najlepiej dostosować się do Twoich preferencji";
+"byok" = "🔑 BYOK";
+"titleBYOK" = "BYOK - Przynieś Swój Własny Klucz";
+"textBYOK" = "\tW tej opcji możesz wprowadzić swój własny klucz API OpenAI, aby zacząć korzystać z AKME.\nW ten sposób możesz zarządzać swoim wykorzystaniem API bezpośrednio za pośrednictwem swojego konta OpenAI. Wszystkie prompty wysyłane przez aplikację AKME będą liczyć się do wykorzystania tokenów na Twoim koncie.\nTa opcja jest odpowiednia dla użytkowników, którzy już mają konto OpenAI i wolą zachować pełną kontrolę nad swoim wykorzystaniem API.";
+"inAppTokens" = "🎟 Tokeny w Aplikacji";
+"titlePurchase" = "Kup Tokeny w Aplikacji";
+"textPurchase" = "Ta opcja pozwala Ci na zakup tokenów bezpośrednio w aplikacji AKME, zapewniając płynne działanie.\nZużyte przez Ciebie tokeny będą odejmowane z salda Twoich tokenów w aplikacji. Gdy Twoje saldo spadnie do zera lub spadnie poniżej wymaganej liczby tokenów dla prompta możesz zakupić więcej tokenów, lub przełączyć się na opcję BYOK.\nNadal będziesz mieć dostęp do swoich istniejących wątków czatu, niezależnie od Twojego aktualnego salda tokenów.";
+"infoTokens" = "Co to są Tokeny?";
+"tokensExplanation" = "Tokeny są podstawowymi jednostkami tekstu, z którymi modele językowe pracują. Reprezentują one najmniejsze jednostki znaczeniowe i mogą być pojedynczymi znakami, całymi słowami lub częściami słów. Modele językowe używają tych tokenów do zrozumienia i generowania tekstu, co czyni je niezbędnymi do ich funkcjonowania.\n\nW kontekście API, takiego jak OpenAI, tokeny odgrywają kluczową rolę w określaniu kosztów wykorzystania. Proces tokenizacji rozkłada zarówno prompt wejściowy, jak i wygenerowaną odpowiedź na tokeny. Całkowita liczba wykorzystanych tokenów wpływa na koszt, czas przetwarzania i ograniczenia API. Dlatego wysyłając prompt i otrzymując odpowiedź, tokeny są \"wydawane\", co oznacza, że użytkownicy są rozliczani na podstawie łącznej liczby tokenów użytych w prompcie i odpowiedzi. Ten mechanizm konsumpcji tokenów zachęca do ich efektywnego wykorzystania i zapewnia, że modele językowe skutecznie pracują z różnorodnymi danymi językowymi.";
+"ctaBYOK" = "\tMam klucz API";
+"ctoBYOK" = "\tNie mam klucza API";
+"questionTokens" = "Co to są Tokeny?";
+"tokensBalance" = "Saldo";
+"tokens" = "Tokeny";
+"balanceInfo" = "Ta lista nie uwzględnia zakupów lub wykorzystania z innych urządzeń połączonych z tym samym kontem.";
+"purchase" = "Kup";
+"restorePurchases" = "Przywróć Zakupy";
+"checkPurchases" = "Sprawdzanie Zakupów";
+
+/*Threads*/
+"errNoConnection" = "Nie można nawiązać bezpiecznego połączenia z serwerem";
+"preparingExport" = "Przygotowywanie eksportu";
+"textCopied" = "Tekst skopiowany";
+"newChat" = "Nowy czat";
+"newChatDetail" = "Rozpocznij nowy wątek";
+"errorLoadingThread" = "Nie można załadować wątku!";
+
+/*Parameters*/
+"temperature" = "Temperatura";
+"topP" = "Top P";
+"maxTokens" = "Maksymalna liczba tokenów";
+"presencePenalty" = "Kara za obecność";
+"frequencyPenalty" = "Kara za częstość";
+"apiKeyServer" = "Serwer";
+"newThreadParameters" = "Te parametry będą używane tylko dla nowych wątków.";
+"thisThreadParameters" = "Te parametry będą używane tylko dla tego wątku.";
+"resetParameters" = "Resetuj parametry";
+"resetDetail" = "Czy chcesz zresetować wszystkie parametry do wartości domyślnych?\n\nTwoje zmiany zostaną utracone!";
+"removeAPIKey" = "Usuń klucz API";
+"removeAPIDetail" = "Czy chcesz usunąć klucz API?\n\nNie można cofnąć tej operacji!";
+"modelToolTip" = "ID modelu do użycia.\nUwaga, ceny tokenów różnią się w zależności od modelu.";
+"temperatureToolTip" = "Jaka temperatura próbkowania ma być używana,\nod 0 do 2.\n\nWyższe wartości, takie jak 0,8, sprawią, że wynik będzie bardziej losowy, podczas gdy niższe wartości, takie jak 0,2, sprawią, że będzie bardziej ukierunkowany i deterministyczny.\n\nZalecamy zmianę tego lub top_p, ale nie obu jednocześnie.";
+"topPToolTip" = "Alternatywa dla próbkowania z użyciem temperatury, nazywana próbkowaniem jądra, w której model rozważa wyniki tokenów z masą prawdopodobieństwa top_p.\n\nZatem, 0,1 oznacza, że ​​rozważane są tylko tokeny stanowiące górne 10% masy prawdopodobieństwa.\n\nZalecamy zmianę tego lub temperatury, ale nie obu jednocześnie.";
+"maxTokensToolTip" = "Maksymalna liczba tokenów do wygenerowania podczas czatu.\n\nCałkowita długość tokenów prompta i odpowiedzi jest ograniczona przez długość kontekstu modelu.";
+"presencePenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie tego, czy występują w tekście do tej pory, zwiększając prawdopodobieństwo, że model będzie mówił o nowych tematach.";
+"frequencyPenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie ich częstości występowania w tekście do tej pory, zmniejszając prawdopodobieństwo, że model powtórzy ten sam wiersz dosłownie.";
+
+/*Ogólne*/
+"ok" = "Ok";
+"cancel" = "Anuluj";
+"save" = "Zapisz";
+"reset" = "Resetuj";
+"remove" = "Usuń";
+"warning" = "Uwaga";
+"hide" = "Ukryj";
+"show" = "Pokaż";
+"apiKey" = "Klucz API";
+"enterApiKey" = "Wprowadź klucz API";
+"invalidAPIKey" = "Nieprawidłowy klucz API";
+"apiKeyError" = "Nieprawidłowy klucz API";
+"missingAPIKey" = "Brak klucza API";
+"savedApiKey" = "Klucz API zapisany!";
+"errorModels" = "Wprowadź klucz API, aby wyświetlić modele";
+"readOnlyModels" = "Model jest konfigurowany przez serwer na podstawie dostępności.\n\nDomyślny model to gpt-3.5-turbo.";
+"errorNetwork" = "Nie można połączyć się z AppStore";
+"detailNetwork" = "Aplikacja nie może bezpiecznie połączyć się z AppStore.\n\nZalogowanie się do iCloud zwykle rozwiązuje ten problem.";
+"gptModel" = "Model GPT";
+"prompt" = "Prompt";
+"reply" = "Odpowiedź";
+"exportLog" = "Eksportuj dziennik";
+"promptSuggestions" = "Tematy";
+"me" = "Ja";
+"AKME" = "AKME";
+"updateApp" = "Twoja wersja aplikacji nie jest już kompatybilna.\nZaktualizuj do najnowszej wersji.";
+"insufficientTokens" = "Nie masz wystarczającej liczby tokenów";
+"unknownNetworkError" = "Wystąpił błąd sieciowy, spróbuj ponownie później";
+"titleLongThread" = "Długi wątek";
+"warningLongThread" = "Ten wątek staje się długi - zacznij nowy, aby uniknąć dodatkowych kosztów.";
+"errorLongThread" = "Ten wątek jest zbyt długi, zacznij nowy.";
+"blockLongThread" = "Ten wątek przekroczył limit tokenów, nie możesz wysyłać nowych wiadomości";
+"transactionStarted" = "Transakcja rozpoczęta";
+"transactionFailed" = "Transakcja nie powiodła się";
+"transactionRestored" = "Transakcja przywrócona";
+"transactionSuccesful" = "Transakcja zakończona sukcesem";
+"transactionDeferred" = "Transakcja odroczona";
+"waitingModeration" = "Oczekiwanie na moderację";
+"reviewMessage" = "Twoja wiadomość może naruszać nasze zasady moderacji, proszę przejrzeć wiadomość.";
+
+/*Pomoc*/
+"instructionsTitle" = "Instrukcje obsługi";
+"websiteTitle" = "FAQ";
+"feedbackTitle" = "Opinia";
+"instructionsDetail" = "Przed rozpoczęciem prosimy przeczytać poniższe ważne instrukcje, aby zapewnić najlepsze doświadczenie z AKME.";
+"websiteDetail" = "Więcej odpowiedzi na często zadawane pytania znajdziesz na naszej stronie internetowej.";
+"feedbackDetail" = "Jeśli napotkasz jakiekolwiek problemy lub masz sugestie dotyczące poprawy aplikacji, prosimy o kontakt z nami!";
+"instructionsAction" = "Przeczytaj instrukcje";
+"websiteAction" = "Otwórz stronę internetową";
+"feedbackAction" = "Wyślij opinię";
+"reportIssue" = "Zgłoś problem";
+"reviewApp" = "Oceń AKME";
+"mailFeedback" = "Opinia o AKME";
+"problemFeedback" = "Problem z AKME";
+"describeIssue" = "Proszę opisać problem, z którym się zmagasz.\nDołączono także zapis ostatnich transakcji oraz kopię pliku konfiguracyjnego. Te pliki nie zawierają żadnych informacji identyfikujących.\nProszę nie udostępniać poufnych lub prywatnych informacji.";
+"writeFeedback" = "Bardzo chętnie wysłuchamy Twoich opinii, ale prosimy o nieudostępnianie poufnych lub prywatnych informacji.";
+"errorSendingMail" = "Nie można wysłać e-maila";
+"chooseWisely" = "Wybierz opcję";
+"error" = "Błąd";
+"networkError" = "Wystąpił błąd sieciowy, spróbuj ponownie";
+"retryRequest" = "Powtórzyć zapytanie?";
+"retry" = "Powtórz";
+
+/*Threads*/
+"oldThreads" = "Wątki";
+
+/*General*/
+"languageSuffix" = "pl";
+
+/*Bonus*/
+"startBonus" = "Bonus powitalny";
+"startBonusTitle" = "Witamy";
+"startBonusText" = "Dodaliśmy %@ tokenów do Twojego konta, aby pomóc Ci w eksploracji funkcji naszej aplikacji.";
