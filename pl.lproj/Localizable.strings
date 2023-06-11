@@ -58,7 +58,7 @@
 "topPToolTip" = "Alternatywa dla próbkowania z użyciem temperatury, nazywana próbkowaniem jądra, w której model rozważa wyniki tokenów z masą prawdopodobieństwa top_p.\n\nZatem, 0,1 oznacza, że ​​rozważane są tylko tokeny stanowiące górne 10% masy prawdopodobieństwa.\n\nZalecamy zmianę tego lub temperatury, ale nie obu jednocześnie.";
 "maxTokensToolTip" = "Maksymalna liczba tokenów do wygenerowania podczas czatu.\n\nCałkowita długość tokenów prompta i odpowiedzi jest ograniczona przez długość kontekstu modelu.";
 "presencePenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie tego, czy występują w tekście do tej pory, zwiększając prawdopodobieństwo, że model będzie mówił o nowych tematach.";
-"frequencyPenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie ich istniejącej częstości w tekście do tej pory, zmniejszając prawdopodobieństwo, że model powtórzy ten sam wiersz dosłownie.";
+"frequencyPenaltyToolTip" = "Liczba od -2,0 do 2,0.\n\nDodatnie wartości karzą nowe tokeny na podstawie ich częstości występowania w tekście do tej pory, zmniejszając prawdopodobieństwo, że model powtórzy ten sam wiersz dosłownie.";
 
 /*Ogólne*/
 "ok" = "Ok";
