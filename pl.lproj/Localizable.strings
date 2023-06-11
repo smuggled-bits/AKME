@@ -115,7 +115,7 @@
 "reviewApp" = "Oceń AKME";
 "mailFeedback" = "Opinia o AKME";
 "problemFeedback" = "Problem z AKME";
-"describeIssue" = "Proszę opisać problem, z którym się zmagasz.\nDołączono także dziennik ostatnich transakcji oraz kopię pliku konfiguracyjnego. Te pliki nie zawierają żadnych informacji identyfikujących.\nProszę nie udostępniać poufnych lub prywatnych informacji.";
+"describeIssue" = "Proszę opisać problem, z którym się zmagasz.\nDołączono także zapis ostatnich transakcji oraz kopię pliku konfiguracyjnego. Te pliki nie zawierają żadnych informacji identyfikujących.\nProszę nie udostępniać poufnych lub prywatnych informacji.";
 "writeFeedback" = "Bardzo chętnie wysłuchamy Twoich opinii, ale prosimy o nieudostępnianie poufnych lub prywatnych informacji.";
 "errorSendingMail" = "Nie można wysłać e-maila";
 "chooseWisely" = "Wybierz opcję";
