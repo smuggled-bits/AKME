@@ -10,7 +10,7 @@
 "textDisclaimer" = "\tZwracamy uwagę, że autorzy AKME nie ponoszą odpowiedzialności za treść generowaną przez aplikację.\n\tOdpowiedzi dostarczane są przez model GPT OpenAI i nie reprezentują poglądów ani opinii deweloperów aplikacji.\n\tKorzystaj z dostarczonych informacji na własne ryzyko.";
 "titleFeedback" = "Cenimy Twoją opinię";
 "textFeedback" = "\tTwoja opinia jest niezwykle ważna dla poprawy jakości AKME.\n\tJeśli napotkasz jakieś problemy lub masz sugestie dotyczące poprawy aplikacji, nie wahaj się skontaktować z nami za pomocą opcji opinii w aplikacji lub wysłania wiadomości e-mail na adres akme@smuggledbits.com.\n\tTwoje uwagi pomagają nam stworzyć lepsze doświadczenie dla wszystkich użytkowników.";
-"continueLabel" = "\tKontynuuj";
+"continueLabel" = "\tDalej";
 
 /*Purchase screen*/
 "titlePurchaseIntro" = "AKME oferuje dwie elastyczne opcje użytkowania, aby najlepiej dostosować się do Twoich preferencji";
