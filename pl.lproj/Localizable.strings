@@ -27,7 +27,7 @@
 "questionTokens" = "Co to są Tokeny?";
 "tokensBalance" = "Saldo";
 "tokens" = "Tokeny";
-"balanceInfo" = "Ta informacja może nie uwzględniać zakupów lub wykorzystania z innych urządzeń połączonych z tym samym kontem.";
+"balanceInfo" = "Ta lista nie uwzględnia zakupów lub wykorzystania z innych urządzeń połączonych z tym samym kontem.";
 "purchase" = "Kup";
 "restorePurchases" = "Przywróć Zakupy";
 "checkPurchases" = "Sprawdzanie Zakupów";
